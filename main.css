@@ -610,3 +610,135 @@ html, body {
         top: 50%;
     }
 }
+/* ============================= */
+/* 📱 RESPONSIVE CHO MOBILE      */
+/* ============================= */
+
+@media (max-width: 768px) {
+
+    .boxTitle {
+        font-size: 60px;
+        top: 130%;
+    }
+
+    .paperHeart {
+        height: 60px;
+    }
+
+    .paperHeart1 { left: 20px; }
+    .paperHeart2 { left: 100px; }
+    .paperHeart3 { left: 180px; }
+    .paperHeart4 { left: 260px; }
+    .paperHeart5 { left: 340px; }
+    .paperHeart6 { left: 420px; }
+
+    /* Clouds nhỏ lại */
+    .container.active .cloud,
+    .container.active .cloud1,
+    .container.active .cloud2 {
+        height: 120px;
+        width: 120px;
+        box-shadow: 80px 0px #ffb3c1,
+                    160px 0px #ffb3c1,
+                    240px 0px #ffb3c1,
+                    320px 0px #ffb3c1,
+                    400px 0px #ffb3c1;
+    }
+
+    /* Button */
+    .container .btnBox {
+        width: 250px;
+        height: 120px;
+    }
+
+    .openBtn {
+        font-size: 28px;
+    }
+
+    /* Card Valentine thu nhỏ */
+    .cardValentine,
+    .cardValentine.active {
+        width: 90%;
+        height: 450px;
+    }
+
+    .cardValentine .left,
+    .cardValentine .right {
+        width: 50%;
+        padding: 10px;
+    }
+
+    .boxTitleCard {
+        width: 200px;
+        height: 200px;
+    }
+
+    .boxTitleCard::before {
+        width: 180px;
+        height: 180px;
+    }
+
+    .boxTitleCard::after {
+        width: 160px;
+        height: 160px;
+    }
+
+    .titleCard {
+        font-size: 40px;
+        margin-top: 60px;
+    }
+
+    .rightContent {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .letterContent {
+        font-size: 18px;
+    }
+
+    .artHeart {
+        width: 80%;
+    }
+}
+
+/* ============================= */
+/* 📱 EXTRA SMALL – dưới 480px   */
+/* ============================= */
+
+@media (max-width: 480px) {
+
+    .boxTitle {
+        font-size: 40px;
+    }
+
+    .paperHeart {
+        height: 40px;
+    }
+
+    .container .btnBox {
+        width: 200px;
+        height: 100px;
+    }
+
+    .openBtn {
+        font-size: 22px;
+    }
+
+    .cardValentine,
+    .cardValentine.active {
+        height: 400px;
+    }
+
+    .rightContent {
+        font-size: 14px;
+    }
+
+    .titleCard {
+        font-size: 32px;
+    }
+
+    .letterContent {
+        font-size: 16px;
+    }
+}
